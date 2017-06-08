@@ -1,0 +1,7 @@
+{% extends "home_page/page_template.html" %}
+{% block content %}
+    {% for animal in object_list %}
+        <h3><a href="/animals/{{ animal.id }}">{{ animal.name }} </a></h3>
+        <h4>Species: {{ animal.species }} | Color: {{ animal.color }}</h4>
+    {% endfor %}
+{% endblock %}
