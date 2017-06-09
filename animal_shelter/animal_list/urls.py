@@ -9,7 +9,7 @@ urlpatterns = [
         template_name="animal_list/list.html"
     )),
     url(r'^(?P<pk>\d+)$', DetailView.as_view(
-       model=Animal,
+        model=Animal,
         template_name="animal_list/details.html"
     ))
 ]
