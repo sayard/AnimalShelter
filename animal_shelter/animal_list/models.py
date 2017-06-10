@@ -1,7 +1,7 @@
 from django.core.exceptions import ValidationError
 from django.db import models
 from django.core.mail import EmailMessage
-from animal_shelter.animal_shelter.secret import secret_email
+from .secret import secret_email
 
 
 def send_email_notification():
