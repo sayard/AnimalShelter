@@ -1,5 +1,6 @@
 from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import render
+from .form import RegistrationForm
 
 
 def index(request):
@@ -29,3 +30,19 @@ def logout_user(request):
     logout(request)
     logged_in = False
     return render(request, 'home_page/index.html', {'logged_in': logged_in})
+
+
+def register(request):
+    if request.method == 'POST':
+        form = RegistrationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            username = form.cleaned_data.get('username')
+            password = form.cleaned_data.get('password1')
+            user = authenticate(username=username, password=password)
+            login(request, user)
+            logged_in = True
+            return render(request, 'home_page/index.html', {'logged_in': logged_in})
+    else:
+        form = RegistrationForm()
+    return render(request, 'home_page/register.html', {'form': form})
