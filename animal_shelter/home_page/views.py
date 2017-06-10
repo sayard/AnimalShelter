@@ -1,4 +1,4 @@
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import render
 
 
@@ -23,3 +23,9 @@ def login_user(request):
         else:
             return render(request, 'home_page/login.html', {'error_message': 'Invalid login'})
     return render(request, 'home_page/login.html')
+
+
+def logout_user(request):
+    logout(request)
+    logged_in = False
+    return render(request, 'home_page/index.html', {'logged_in': logged_in})

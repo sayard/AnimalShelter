@@ -21,4 +21,5 @@ urlpatterns = [
     url(r'^', include('home_page.urls')),
     url(r'^animals/', include('animal_list.urls')),
     url(r'^login/', include('home_page.urls')),
+    url(r'^logout/', include('home_page.urls')),
 ]

@@ -1,10 +1,17 @@
 {% extends "home_page/page_template.html" %}
+{% block login_status %}
+
+    {% if logged_in%}
+        <li><a href='/logout/'>Log out</a></li>
+    {% else %}
+        <li><a href='/login/'>Log in</a></li>
+        <li><a href='/register/'>Register</a></li>
+    {% endif %}
+
+{% endblock %}
 {% block content %}
-<h2>Welcome to our animal shelter's website.</h2>
-<h3>Here you can view animals available for adoption.</h3>
-{% if logged_in%}
-<p>Logged</p>
-{% else %}
-<p>Not logged</p>
-{% endif %}
+
+    <h2>Welcome to our animal shelter's website.</h2>
+    <h3>Here you can view animals available for adoption.</h3>
+
 {% endblock %}

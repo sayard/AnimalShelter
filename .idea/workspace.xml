@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fde71cb9-b325-4c0c-929b-b5f19b02a01b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animal_shelter/home_page/templates/home_page/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/animal_shelter/db.sqlite3" afterPath="$PROJECT_DIR$/animal_shelter/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/animal_shelter/animal_shelter/urls.py" afterPath="$PROJECT_DIR$/animal_shelter/animal_shelter/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/animal_shelter/home_page/templates/home_page/index.html" afterPath="$PROJECT_DIR$/animal_shelter/home_page/templates/home_page/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/animal_shelter/home_page/templates/home_page/page_template.html" afterPath="$PROJECT_DIR$/animal_shelter/home_page/templates/home_page/page_template.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/animal_shelter/home_page/urls.py" afterPath="$PROJECT_DIR$/animal_shelter/home_page/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/animal_shelter/home_page/views.py" afterPath="$PROJECT_DIR$/animal_shelter/home_page/views.py" />
     </list>
@@ -20,33 +19,43 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/animal_shelter/home_page/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animal_shelter/home_page/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+            <state relative-caret-position="119">
+              <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/animal_shelter/animal_shelter/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/animal_shelter/home_page/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animal_shelter/home_page/templates/home_page/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -55,8 +64,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animal_shelter/home_page/templates/home_page/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="68">
+              <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page_template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/animal_shelter/home_page/templates/home_page/page_template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="47" column="16" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -86,7 +105,6 @@
         <option value="$PROJECT_DIR$/animal_shelter/home/urls.py" />
         <option value="$PROJECT_DIR$/animal_shelter/home/views.py" />
         <option value="$PROJECT_DIR$/animal_shelter/home/templates/home/index.html" />
-        <option value="$PROJECT_DIR$/animal_shelter/home_page/templates/home_page/page_template.html" />
         <option value="$PROJECT_DIR$/animal.py" />
         <option value="$PROJECT_DIR$/animal_shelter/animal_list/admin.py" />
         <option value="$PROJECT_DIR$/shelter.py" />
@@ -97,11 +115,12 @@
         <option value="$PROJECT_DIR$/animal_shelter/animal_shelter/settings.py" />
         <option value="$PROJECT_DIR$/animal_shelter/animal_list/secret.py" />
         <option value="$PROJECT_DIR$/animal_shelter/animal_list/models.py" />
-        <option value="$PROJECT_DIR$/animal_shelter/home_page/urls.py" />
-        <option value="$PROJECT_DIR$/animal_shelter/home_page/templates/home_page/index.html" />
-        <option value="$PROJECT_DIR$/animal_shelter/home_page/views.py" />
-        <option value="$PROJECT_DIR$/animal_shelter/animal_shelter/urls.py" />
         <option value="$PROJECT_DIR$/animal_shelter/home_page/templates/home_page/login.html" />
+        <option value="$PROJECT_DIR$/animal_shelter/home_page/templates/home_page/page_template.html" />
+        <option value="$PROJECT_DIR$/animal_shelter/home_page/templates/home_page/index.html" />
+        <option value="$PROJECT_DIR$/animal_shelter/home_page/urls.py" />
+        <option value="$PROJECT_DIR$/animal_shelter/animal_shelter/urls.py" />
+        <option value="$PROJECT_DIR$/animal_shelter/home_page/views.py" />
       </list>
     </option>
   </component>
@@ -591,13 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animal_shelter/home_page/templates/home_page/page_template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="64" column="26" lean-forward="false" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animal.py" />
     <entry file="file://$PROJECT_DIR$/animal_shelter/animal_list/migrations/0003_auto_20170608_2213.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -711,47 +723,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animal_shelter/animal_shelter/urls.py">
+    <entry file="file://$PROJECT_DIR$/animal_shelter/home_page/templates/home_page/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding>
-            <element signature="e#648#689#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animal_shelter/home_page/templates/home_page/page_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="47" column="16" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/animal_shelter/home_page/templates/home_page/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="68">
+          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/animal_shelter/home_page/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+        <state relative-caret-position="119">
+          <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animal_shelter/animal_shelter/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/animal_shelter/home_page/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="493">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
           <folding>
-            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#0#59#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animal_shelter/home_page/templates/home_page/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
