@@ -1,7 +1,7 @@
 {% extends "home_page/page_template.html" %}
 {% block login_status %}
 
-    {% if logged_in%}
+    {% if user.is_authenticated %}
         <li><a href='/logout/'>Log out</a></li>
     {% else %}
         <li><a href='/login/'>Log in</a></li>
@@ -13,7 +13,7 @@
 
     <h2>Welcome to our animal shelter's website.</h2>
     <h3>Here you can view animals available for adoption.</h3>
-    {% if logged_in %}
+    {% if user.is_authenticated %}
         <p style="color:green;">You are logged in</p>
     {% else %}
         <p style="color:red;">You are not logged in</p>
