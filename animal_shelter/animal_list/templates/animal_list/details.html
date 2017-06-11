@@ -1,6 +1,21 @@
 {% extends "home_page/page_template.html" %}
+{% block login_status %}
+
+    {% if user.is_authenticated %}
+        <li><a href='/logout/'>Log out</a></li>
+    {% else %}
+        <li><a href='/login/'>Log in</a></li>
+        <li><a href='/register/'>Register</a></li>
+    {% endif %}
+
+{% endblock %}
 {% block content %}
-    <h2>{{ animal.name }} </a></h2><br />
+    <h2>{{ animal.name }}</a></h2><br />
     <h3>Species: {{ animal.species }} | Color: {{ animal.color }} | Age: {{ animal.age }}</h3>
     <p>{{ animal.description }}</p>
+    {% if user.is_authenticated %}
+        <button type="button" class="btn btn-primary">Mark for adoption</button>
+    {% else %}
+        <p><a href="{% url 'home_page:login_user' %}">Log in </a>to adopt this pet</p>
+    {% endif %}
 {% endblock %}

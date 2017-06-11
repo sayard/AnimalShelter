@@ -26,7 +26,8 @@ class Animal(models.Model):
     species = models.CharField(max_length=40)
     description = models.TextField(default='')
     description.null = False
-    age = models.SmallIntegerField()
+    age = models.PositiveSmallIntegerField()
+    is_visible = models.BooleanField(default=True)
 
     def clean(self):
         validate_available_places(self)
