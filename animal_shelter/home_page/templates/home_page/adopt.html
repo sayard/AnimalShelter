@@ -1,0 +1,17 @@
+{% extends "home_page/page_template.html" %}
+{% block login_status %}
+
+    {% if user.is_authenticated %}
+        <li><a href='/logout/'>Log out</a></li>
+    {% else %}
+        <li><a href='/login/'>Log in</a></li>
+        <li><a href='/register/'>Register</a></li>
+    {% endif %}
+
+{% endblock %}
+{% block content %}
+
+    <h2>You have successfully marked {{ animal.name }} for adoption</h2>
+    <h3>We'll contact you shortly</h3>
+
+{% endblock %}
