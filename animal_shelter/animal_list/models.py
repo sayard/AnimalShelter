@@ -20,10 +20,17 @@ def validate_available_places(obj):
         raise ValidationError("Shelter is full. Release some animals" % model.__name__)
 
 
+class Specie(models.Model):
+    name = models.CharField(max_length=40)
+
+    def __str__(self):
+        return self.name
+
+
 class Animal(models.Model):
     name = models.CharField(max_length=80)
     color = models.CharField(max_length=30)
-    species = models.CharField(max_length=40)
+    specie = models.ForeignKey(Specie, on_delete=models.CASCADE)
     description = models.TextField(default='')
     description.null = False
     age = models.PositiveSmallIntegerField()

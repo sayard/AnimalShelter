@@ -12,11 +12,11 @@
 {% block content %}
     {% if animal.is_visible %}
         <h2>{{ animal.name }}</a></h2><br />
-        <h3>Species: {{ animal.species }} | Color: {{ animal.color }} | Age: {{ animal.age }}</h3>
+        <h3>Species: {{ animal.specie }} | Color: {{ animal.color }} | Age: {{ animal.age }}</h3>
         <p>{{ animal.description }}</p>
         {% if user.is_authenticated %}
             <form action="/animals/adopt/{{ animal.id }}">
-                <input type="submit" class="btn btn-primary">Mark for adoption</input>
+                <input type="submit" class="btn btn-primary" value="Mark for adoption"/>
             </form>
         {% else %}
             <p><a href="{% url 'home_page:login_user' %}">Log in </a>to adopt this pet</p>
