@@ -12,8 +12,13 @@
 {% block content %}
     {% for animal in object_list %}
         {% if animal.is_visible%}
-            <h3><a href="/animals/{{ animal.id }}">{{ animal.name }} </a></h3>
-            <h4>Species: {{ animal.species }} | Color: {{ animal.color }}</h4>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <a href="/animals/{{ animal.id }}"><img class="img-thumbnail" src="{{ animal.thumbnail.url }}" alt="{{ animal.name }}"></a>
+                </div>
+                <h3><a href="/animals/{{ animal.id }}">{{ animal.name }} </a></h3>
+                <h4>Species: {{ animal.species }} | Color: {{ animal.color }}</h4>
+            </div>
         {% endif %}
     {% endfor %}
 {% endblock %}

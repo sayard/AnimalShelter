@@ -11,6 +11,7 @@
 {% endblock %}
 {% block content %}
     {% if animal.is_visible %}
+        <img class="img-thumbnail" src="{{ animal.thumbnail.url }}" alt="{{ animal.name }}">
         <h2>{{ animal.name }}</a></h2><br />
         <h3>Species: {{ animal.specie }} | Color: {{ animal.color }} | Age: {{ animal.age }}</h3>
         <p>{{ animal.description }}</p>

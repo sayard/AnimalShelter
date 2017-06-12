@@ -35,6 +35,7 @@ class Animal(models.Model):
     description.null = False
     age = models.PositiveSmallIntegerField()
     is_visible = models.BooleanField(default=True)
+    thumbnail = models.FileField(upload_to='documents/%Y/%m/%d', default=None, blank=True, null=True)
 
     def clean(self):
         validate_available_places(self)

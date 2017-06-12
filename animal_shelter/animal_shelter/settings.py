@@ -122,8 +122,15 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+# Settings for email sending
+
 EMAIL_USE_TLS = True
 EMAIL_HOST = email_host
 EMAIL_HOST_USER = email_user
 EMAIL_HOST_PASSWORD = email_pw
 EMAIL_PORT = 587
+
+# Media storage settings
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
